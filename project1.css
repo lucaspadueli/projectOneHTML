@@ -113,11 +113,14 @@ text-align: center;
 }
 
 .member-name{
-  font-size:1.5em;
-  font-weigth:700;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: 700;
+ 
 }
 
-#team img{
-  width:250px;
-  heigth:180px;
+.member-name img {
+  width: 250px;
+  height: 180px;
 }
