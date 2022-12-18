@@ -74,3 +74,50 @@ header{
 aside{
   font-size:2em;
 }
+
+.dark-background{
+  background-color: darkblue;
+  color: white;
+}
+
+.text-one{
+font size: 2em;
+font-weight: 100;
+text-align: center;
+  
+}
+
+.link-btn{
+  background color:rgba(26, 111, 195, 0.61);
+color: white;
+font-family: Roboto Condensed;
+font-size: 2em;
+letter-spacing: 0.5px;
+text-align: center;
+text-decoration: none;
+  
+}
+
+.service-box{
+  font-size: 1.7em;
+text-align: center;
+}
+
+.service-box img{
+  width:125px;
+}
+
+.section-text{
+  font-size:1.9em;
+  text-align:center;
+}
+
+.member-name{
+  font-size:1.5em;
+  font-weigth:700;
+}
+
+#team img{
+  width:250px;
+  heigth:180px;
+}
