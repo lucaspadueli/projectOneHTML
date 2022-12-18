@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
 body {
@@ -112,9 +118,18 @@ text-align: center;
   text-align:center;
 }
 
+
+.member-name b {
+  position: relative;
+  top: 0;
+}
+
+.member-name img {
+  display: block;
+}
+
 .member-name{
-  display: flex;
-  align-items: center;
+  
   font-size: 1.5em;
   font-weight: 700;
  
@@ -123,4 +138,19 @@ text-align: center;
 .member-name img {
   width: 250px;
   height: 180px;
+  
+}
+
+.footer{
+  text-align:center;
+  font-size:1.9em;
+}
+
+.social-link{
+  color:rgba(124, 182, 240, 0.51);
+}
+
+.dot li{
+  text-align:center;
+margin: 100px;
 }
